@@ -28,6 +28,7 @@ wp-config.php
 /wp-content/plugins/hello.php
 /wp-content/plugins/akismet
 /wp-content/plugins/astra-sites
+/wp-content/plugins/leadin
 /wp-content/plugins/presto-player
 /wp-content/plugins/ultimate-addons-for-gutenberg
 /wp-content/plugins/woocommerce

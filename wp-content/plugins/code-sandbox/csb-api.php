@@ -1,13 +1,16 @@
 <?php
 /*
 Plugin Name:  WP Code SandBox API
-Plugin URI:   https://www.wpbeginner.com
-Description:  A short little description of the plugin. It will be displayed on the Plugins page in WordPress admin area.
+Plugin URI:   https://github.com/AjixDev/WP-LMS/tree/main/wp-content/plugins/code-sandbox
+Description:  API connection for code sandbox
 Version:      1.0
-Author:       WPBeginner
-Author URI:   https://www.wpbeginner.com
+Author:       AjixDev
+Author URI:   https://github.com/AjixDev
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  wpb-tutorial
-Domain Path:  /languages
 */
+
+// Include necessary files
+require_once plugin_dir_path(__FILE__) . 'includes/class-code-sandbox-api.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-admin.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-public.php';
